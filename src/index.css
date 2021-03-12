@@ -5,6 +5,14 @@
   font-family: 'Quicksand';
   color: #333;
 }
+.navbar p {
+  display: inline;
+  border: 1px solid rgb(37, 36, 36);
+  padding: 3px;
+  color: #ebe7e7;
+  margin-right: 2px;
+  background-color: #0d3e10;
+}
 .navbar {
   padding: 20px;
   display: flex;
@@ -34,4 +42,20 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+
+/* blog content */
+.blog-prev {
+  margin: 8px;
+  border-bottom: 1px solid #f5f1f1;
+  padding-bottom: 8px;
+}
+.blog-prev h2 {
+  color: #369457;
+}
+.blog-prev h2:hover {
+  color: #29773e;
+}
+.blog-prev:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
