@@ -1,17 +1,31 @@
-const Home = () => {
-  const handleClick = () => {
-    console.log('hola')
-  }
+import { useState } from 'react'
 
-  const handleAgain = (nama, e) => {
-    console.log('helo ' + nama, e.target)
-  }
+const Home = () => {
+  // let name = 'Marco'
+  const [blogs, setBlog] = useState([
+    { title: 'How cook meth', body: 'lorem10', author: 'walter', id: 1 },
+    {
+      title: 'Mess with an idiot',
+      body: 'lorem ipsum....',
+      author: 'saul',
+      id: 2,
+    },
+    {
+      title: 'Droping from highschool',
+      body: 'lorem ipsum dolor',
+      author: 'pinkman',
+      id: 3,
+    },
+  ])
 
   return (
     <div className="home">
-      <h2 style={{ marginBottom: 20 }}>Homepage</h2>
-      <button onClick={handleClick}>Click</button>
-      <button onClick={(e) => handleAgain('walter', e)}>Clik again</button>
+      {blogs.map((blog) => (
+        <div className="blog-prev" key={blog.id}>
+          <h2>{blog.title}</h2>
+          <p>written by {blog.author}</p>
+        </div>
+      ))}
     </div>
   )
 }
