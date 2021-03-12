@@ -1,11 +1,17 @@
 import { useState } from 'react'
+import Bloglist from './Bloglist'
 
 const Home = () => {
   // let name = 'Marco'
   const [blogs, setBlog] = useState([
-    { title: 'How cook meth', body: 'lorem10', author: 'walter', id: 1 },
     {
-      title: 'Mess with an idiot',
+      title: 'How cooked blue saphired meth',
+      body: 'lorem10',
+      author: 'walter',
+      id: 1,
+    },
+    {
+      title: 'Mess with an idiotic Saul',
       body: 'lorem ipsum....',
       author: 'saul',
       id: 2,
@@ -16,16 +22,17 @@ const Home = () => {
       author: 'pinkman',
       id: 3,
     },
+    {
+      title: '[Leaked!] this is how jesse spell bit*ch',
+      body: 'lorem ipsum dolor',
+      author: 'pinkman',
+      id: 4,
+    },
   ])
 
   return (
     <div className="home">
-      {blogs.map((blog) => (
-        <div className="blog-prev" key={blog.id}>
-          <h2>{blog.title}</h2>
-          <p>written by {blog.author}</p>
-        </div>
-      ))}
+      <Bloglist blogs={blogs} title="All Blog0s" />
     </div>
   )
 }

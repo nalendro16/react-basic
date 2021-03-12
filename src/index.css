@@ -49,6 +49,7 @@
   margin: 8px;
   border-bottom: 1px solid #f5f1f1;
   padding-bottom: 8px;
+  padding-left: 10px;
 }
 .blog-prev h2 {
   color: #369457;
@@ -57,5 +58,5 @@
   color: #29773e;
 }
 .blog-prev:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
 }
