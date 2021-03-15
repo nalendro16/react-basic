@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "How cooked blue saphired meth bisch",
+      "body": "The Effect Hook lets you perform side effects in function components.There are two common kinds of side effects in React components: those that don’t require cleanup, and those that do. Let’s look at this distinction in more detail.",
+      "author": "walter",
+      "id": 1
+    },
+    {
+      "title": "Mess with an idiotic Saul bitch",
+      "body": "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Sometimes, we want to run some additional code after React has updated the DOM. Network requests, manual DOM mutations, and logging are common examples of effects that don’t require a cleanup. We say that because we can run them and immediately forget about them. Let’s compare how classes and Hooks let us express such side effects.",
+      "author": "saul",
+      "id": 2
+    },
+    {
+      "title": "Droping from highschool beach",
+      "body": "This snippet is based on the counter example from the previous page, but we added a new. In React class components, the render method itself shouldn’t cause side effects. It would be too early — we typically want to perform our effects after React has updated the DOM.",
+      "author": "pinkman",
+      "id": 3
+    }
+  ]
+}
