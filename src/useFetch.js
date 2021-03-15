@@ -10,7 +10,7 @@ const useFetch = (url) => {
       fetch(url)
         .then((res) => {
           if (!res.ok) {
-            throw Error('Failed fetch from the resources!')
+            throw new Error('Failed fetch from the resources!')
           }
           return res.json()
         })
