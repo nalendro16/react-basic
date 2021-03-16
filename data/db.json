@@ -47,6 +47,24 @@
       "body": "aduh ganm",
       "author": "walter",
       "id": 8
+    },
+    {
+      "title": "Another blog",
+      "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
+      "author": "walter",
+      "id": 9
+    },
+    {
+      "title": "Ah its failed",
+      "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
+      "author": "walter",
+      "id": 10
+    },
+    {
+      "title": "Just push",
+      "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
+      "author": "walter",
+      "id": 11
     }
   ]
 }
