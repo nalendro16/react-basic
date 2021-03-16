@@ -65,3 +65,12 @@
 h2 {
   text-decoration: none;
 }
+.detail-blog h2 {
+  color: #369457;
+}
+.author {
+  border-bottom: 3px solid #ebe7e7;
+}
+.detail-blog p {
+  padding: 10px 0;
+}
