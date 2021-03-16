@@ -115,3 +115,14 @@ h2 {
 .create button:hover {
   background: #369457;
 }
+.detail-blog button {
+  background: #369457;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.detail-blog button:hover {
+  background: #f1356d;
+}

@@ -1,60 +1,6 @@
 {
   "blogs": [
     {
-      "title": "How cooked blue saphired meth",
-      "body": "The Effect Hook lets you perform side effects in function components.There are two common kinds of side effects in React components: those that don’t require cleanup, and those that do. Let’s look at this distinction in more detail.",
-      "author": "walter",
-      "id": 1
-    },
-    {
-      "title": "Mess with an idiotic Saul",
-      "body": "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Sometimes, we want to run some additional code after React has updated the DOM. Network requests, manual DOM mutations, and logging are common examples of effects that don’t require a cleanup. We say that because we can run them and immediately forget about them. Let’s compare how classes and Hooks let us express such side effects.",
-      "author": "saul",
-      "id": 2
-    },
-    {
-      "title": "Droping from highschool",
-      "body": "This snippet is based on the counter example from the previous page, but we added a new. In React class components, the render method itself shouldn’t cause side effects. It would be too early — we typically want to perform our effects after React has updated the DOM.",
-      "author": "pinkman",
-      "id": 3
-    },
-    {
-      "title": "Buy big plastic bucket",
-      "body": "This snippet is based on the counter example from the previous page, but we added a new. In React class components, the render method itself shouldn’t cause side effects. It would be too early — we typically want to perform our effects after React has updated the DOM.",
-      "author": "pinkman",
-      "id": 4
-    },
-    {
-      "title": "huhu",
-      "body": "wuhu wuhu bagus",
-      "author": "walter",
-      "id": 5
-    },
-    {
-      "title": "asu kabneh",
-      "body": "huehuheu asue kabeh",
-      "author": "pinkman",
-      "id": 6
-    },
-    {
-      "title": "aduh sakit",
-      "body": "huehuheu asue kabeh",
-      "author": "pinkman",
-      "id": 7
-    },
-    {
-      "title": "aduh gan",
-      "body": "aduh ganm",
-      "author": "walter",
-      "id": 8
-    },
-    {
-      "title": "Another blog",
-      "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
-      "author": "walter",
-      "id": 9
-    },
-    {
       "title": "Ah its failed",
       "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
       "author": "walter",
