@@ -56,7 +56,12 @@
 }
 .blog-prev h2:hover {
   color: #29773e;
+  text-decoration: underline;
 }
 .blog-prev:hover {
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-prev a,
+h2 {
+  text-decoration: none;
 }
