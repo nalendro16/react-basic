@@ -19,7 +19,6 @@ const Create = () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(blog),
     }).then(() => {
-      console.log('new blog added')
       setisPending(false)
       history.push('/')
     })

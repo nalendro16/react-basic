@@ -11,6 +11,18 @@
       "body": "Keep in mind, however, that this may be annoying to your user. The resizing of text areas is part of the UI now, like scroll bars or zooming text. By defeating this aspect of the UI, you have taken some control away from your user, which can be frustrating. Consider if it is necessary - after all, if the user resizing the box breaks your layout or looks funny, they aren't going to hold it against you - they know they've done something to the page and won't be confused.",
       "author": "walter",
       "id": 11
+    },
+    {
+      "title": "This is Spartaaaaaaaaaaaa",
+      "body": "Okay, if your Synology still has its default IPv6 setup you can try to find it via the IPv6 Neighbor Discovery Protocol. The NDP list shows only devices, which had communicated to each other. So we need to issue a multicast ping. This will trigger an answer from all members of the subnet.\n\nWe need the interface name for this. In Windows it is a number, which can be found in ipconfig. Open PowerShell and attach the output to your question:",
+      "author": "walter",
+      "id": 12
+    },
+    {
+      "title": "Ljubomir Fejsa",
+      "body": "Okay, if your Synology still has its default IPv6 setup you can try to find it via the IPv6 Neighbor Discovery Protocol. The NDP list shows only devices, which had communicated to each other. So we need to issue a multicast ping. This will trigger an answer from all members of the subnet.\n\nWe need the interface name for this. In Windows it is a number, which can be found in ipconfig. Open PowerShell and attach the output to your question:",
+      "author": "pinkman",
+      "id": 13
     }
   ]
 }
